@@ -4,19 +4,7 @@ Este repositório contém um sistema de classificação de jogadores baseado em 
 
 ## Como funciona
 
-O sistema classifica o jogador conforme a tabela abaixo:
-
-| XP Mínimo | Nível       |
-|-----------|------------|
-| 10.001+   | Radiante   |
-| 9.000+    | Imortal    |
-| 8.000+    | Ascendente |
-| 7.000+    | Platina    |
-| 5.000+    | Ouro       |
-| 3.000+    | Prata      |
-| 2.000+    | Bronze     |
-| < 2.000   | Ferro      |
-
+O sistema classifica o jogador conforme a quantidade de XP que ele tem retorna o nível: Radiante, Imortal, Ascendente, Platina, Ouro, Prata, Bronze, Ferro.
 O código recebe um nome de usuário e sua quantidade de XP, processa a informação e exibe o nível correspondente no console.
 
 ## Tecnologias utilizadas  
