@@ -19,41 +19,6 @@ O sistema classifica o jogador conforme a tabela abaixo:
 
 O código recebe um nome de usuário e sua quantidade de XP, processa a informação e exibe o nível correspondente no console.
 
-## Exemplo de uso
-
-```javascript
-let nomeUsuario = "Giovani"; // Nome do jogador
-let XP = 1000; // Experiência
-let nivel;
-
-if (XP >= 10001) {
-    nivel = "Radiante";
-} else if (XP >= 9000) {
-    nivel = "Imortal";
-} else if (XP >= 8000) {
-    nivel = "Ascendente";
-} else if (XP >= 7000) {
-    nivel = "Platina";
-} else if (XP >= 5000) {
-    nivel = "Ouro";
-} else if (XP >= 3000) {
-    nivel = "Prata";
-} else if (XP >= 2000) {
-    nivel = "Bronze";
-} else {
-    nivel = "Ferro";
-}
-
-console.log(`O jogador ${nomeUsuario} está no nível ${nivel}.`);
-```
-
-**Saída esperada:**  
-```
-O jogador Giovani está no nível Ferro.
-```
-
 ## Tecnologias utilizadas  
 - JavaScript  
 
-## Licença  
-Este projeto é de código aberto. Fique à vontade para modificá-lo e melhorá-lo! 🚀
